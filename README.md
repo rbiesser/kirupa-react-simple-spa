@@ -1,3 +1,18 @@
+# Kirupa React Simple SPA (Single Page Application)
+
+- Follow the tutorial here, https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm
+- The tutorial gets some of the initial commands wrong or they have been changed as well as `react-router-dom` has received some updates.
+- The command to create a new React app is:
+```
+npx create-react-app kirup-react-simple-spa
+```
+- The `--save` flag is the default behavior for npm and npm now adds installed packages as dependencies in packages.json automatically now without the flag.
+- React Router is the magic behind the SPA and the official documentation can be found here along with more advanced examples, https://reacttraining.com/react-router/web/guides/quick-start
+- Note that the new documented way to create Routes is to wrap the `<Route>`s in a `<Switch>` component and React Router will match the route with the first option it finds in the switch order.
+- Putting the root path last makes the `exact` keyword unnecessary in the Route.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

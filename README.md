@@ -10,6 +10,7 @@ npx create-react-app kirup-react-simple-spa
 - React Router is the magic behind the SPA and the official documentation can be found here along with more advanced examples, https://reacttraining.com/react-router/web/guides/quick-start
 - Note that the new documented way to create Routes is to wrap the `<Route>`s in a `<Switch>` component and React Router will match the route with the first option it finds in the switch order.
 - Putting the root path last makes the `exact` keyword unnecessary in the Route.
+- Switching `<HashRouter>` to `<BrowserRouter>` makes the url path more friendly, but requires adding `.htaccess` file to redirect requests in production environment. See official documentation.
 
 ---
 
